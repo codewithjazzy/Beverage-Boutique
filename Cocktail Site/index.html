@@ -6,26 +6,50 @@
 		<meta name="keywords" content="one, two, three">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  
-		  <title>Let's Get Litty</title>
+		  <title>Booze Boutique</title>
   
 		  <!-- external CSS link -->
 		  <link rel="stylesheet" href="css/normalize.css">
 		  <link rel="stylesheet" href="css/style.css">
 	  </head>
 	<body>
-		<div>
-			<header></header>
+		<header>
+			<nav>
+				<ul>
+					<li><a href=>Mixologist's Surprise</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+			<div class="title">
+				<h1>Booze Boutique</h1>
+				<span>Cocktail Couture, Your Way</span>
+			</div>
+		</header>
+		<section class="search">
+			<h2>Which cocktail creation captivates your fancy?</h2>
+			<section class="search-Box">
+				<label for="input">Find A Cocktail</label>
+				<input type="text" placeholder="Choose your signature elixir.">
+				<button id="findDrink" type="button" name="button">Clink & Drink</button>
+			</section>
+		</section>
 
+		<div class="carousel-container">
+			<div class="carousel">
+				<!-- Javascript carousel will fill in here-->
+			</div>
+			<button id="prevBtn">&#9664;</button>
+			<button id="nextBtn">&#9654;</button>
 		</div>
-		<h1>What We Drinkin?</h1>
-		<input type="text" name="" value="">
-		<button type="button" name="button">Get Cocktail</button>
 
-		<h2>Name</h2>
-		<img src="" alt="">
-		<h3>Instructions</h3>
-
-
+		<div class="cocktailSelected">
+			<!--<h2>Name</h2>
+				<img src="" alt="">
+				<span>Ingredients</span>
+				<h3>Instruction</h3>
+				<button id="prevBtn">Previous</button>
+  				<button id="nextBtn">Next</button>-->
+		</div>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

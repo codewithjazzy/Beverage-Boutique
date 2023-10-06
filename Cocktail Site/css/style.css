@@ -21,22 +21,142 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+html {
+     scroll-behavior: smooth;
 
 }
 
+body{
+     padding-left;: 0
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
+     width: 100%;
+     height: 40vh;
+     padding: 0;
+     background:;
+     background-size: cover;
+     background-position: center;
+     margin: 0;
+     justify-content: center;
+     align-content: space-between;
+     position: relative;
+}
 
+ul {
+     list-style: none;
+     display: flex;
+     justify-content: flex-end;
+     padding-right: 20px;
+     padding-left: 0;
+}
+
+li{
+     padding: 10px 20px
+}
+
+.title, .search{
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+}
+.search-Box{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+label{
+     
+}
+input{
+     display: flex
+     flex: 1;
+     width: 40%
 }
 
 footer {
 
 }
 
+
+/******************************************
+/* CAROUSEL STYLING
+/*******************************************/
+
+          /* **INITIAL CAROUSEL** */
+.carousel-container {
+     overflow: hidden;
+     position: relative;
+     width: 60%; 
+     margin: 0 auto;    
+   }
+   
+.carousel {
+     display: flex;
+     transition: transform 0.3s ease-in-out;
+     height: 100%;
+   }
+   
+.carousel > .drinkEntry {
+     flex: 0 0 100%; /* Each item takes up 100% width */
+     padding-top: 10px;
+     text-align: center;
+   }
+
+          /*  **ACTIVE CAROUSEL** */
+.active-carousel {
+     background-color: teal;
+  border: 2px solid #007bff; /* Border style when active */
+  
+
+  /* Customize styles for img and h2 within the active carousel */
+  .carousel img {
+    
+  }
+
+  .carousel h2 {
+    
+  }
+}
+
+[class^="drinkEntry"] {
+     border: 3px solid red;
+     margin: 10px;
+     text-align: center;
+     /* Add any other styles you want for the drinkEntry class */
+   }
+
+
+          /*  **CAROUSEL BUTTONS** */
+#prevBtn, #nextBtn {
+     position: absolute;
+     top: 50%; /* Vertically center the buttons */
+     transform: translateY(-50%);
+     padding: 10px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     z-index: 1; /* Ensure the buttons appear above the carousel content */
+     font-size: 16px; /* Adjust the font size as needed */
+   }
+   
+#prevBtn {
+     left: 5px; /* Position the "Previous" button to the left */
+   }
+   
+#nextBtn {
+     right: 5px; /* Position the "Next" button to the right */
+   }
+
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
-/*******************************************/
+/*******************************************/   
+
