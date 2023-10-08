@@ -27,6 +27,7 @@ html {
 }
 
 body{
+     background-color: #5F7161;
      padding-left;: 0
 }
 
@@ -37,7 +38,7 @@ header {
      width: 100%;
      height: 40vh;
      padding: 0;
-     background:;
+     background:tomato;
      background-size: cover;
      background-position: center;
      margin: 0;
@@ -78,6 +79,10 @@ input{
      width: 40%
 }
 
+.about-section{
+     background-color: antiquewhite;
+     height: 300px;
+}
 footer {
 
 }
@@ -91,8 +96,9 @@ footer {
 .carousel-container {
      overflow: hidden;
      position: relative;
-     width: 60%; 
-     margin: 0 auto;    
+     width: 75%; 
+     margin: 0 auto;
+
    }
    
 .carousel {
@@ -102,7 +108,7 @@ footer {
    }
    
 .carousel > .drinkEntry {
-     flex: 0 0 100%; /* Each item takes up 100% width */
+     /* flex: 0 0 30%; Each item takes up 100% width */
      padding-top: 10px;
      text-align: center;
    }
@@ -159,4 +165,6 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/   
-
+/* .hide-carousel {
+     display: none;
+   } */
