@@ -26,7 +26,7 @@ A beverage recipe website for both alcoholic and nonalcoholic drinks. The site a
 ### Links
 
 - Repository URL: [Here](https://github.com/codewithjazzy/Beverage-Boutique)
-- Live Site URL: [Here](https://beverageboutique.netlify.app/)
+- Live Site URL: [Here](https://beverageboutique.jasminetaylor.dev/)
 
 ## My process
 
